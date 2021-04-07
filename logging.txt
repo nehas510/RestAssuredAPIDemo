@@ -1,0 +1,32 @@
+Request method:	GET
+Request URI:	http://localhost:3001/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 156
+Date: Wed, 07 Apr 2021 08:10:18 GMT
+Connection: keep-alive
+
+[
+    {
+        "id": 1,
+        "firstname": "John",
+        "Lastname": "Snow",
+        "status": "Learning things"
+    },
+    {
+        "id": 2,
+        "firstname": "Daenerys",
+        "Lastname": "Targaryen",
+        "status": "Riding a dragon"
+    }
+]

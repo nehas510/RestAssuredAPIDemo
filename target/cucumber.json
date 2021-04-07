@@ -1,0 +1,710 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-03T13:41:47.583Z",
+        "line": 3,
+        "name": "Verify List of all users",
+        "description": "",
+        "id": "validate-the-users-api-to-get-the-user-s-detail;verify-list-of-all-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Users API",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 246000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "calling the users api",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "get response with status code \"200\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T13:41:47.638Z",
+        "line": 8,
+        "name": "Verify getting a single user by Id 1122 (Path Parameter)",
+        "description": "",
+        "id": "validate-the-users-api-to-get-the-user-s-detail;verify-getting-a-single-user-by-id-1122-(path-parameter)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Users API",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "calling the users api by path id \"374985798\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "get response with status code \"200\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T13:41:47.644Z",
+        "line": 13,
+        "name": "Verify getting a user whose name is John (Query parameter)",
+        "description": "",
+        "id": "validate-the-users-api-to-get-the-user-s-detail;verify-getting-a-user-whose-name-is-john-(query-parameter)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Users API by name \"John\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 948000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "calling the users api by path id \"1234\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172000,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "get response with status code \"200\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T13:41:47.651Z",
+        "line": 18,
+        "name": "Verify updating users detail by id 77866 (Put request)",
+        "description": "",
+        "id": "validate-the-users-api-to-get-the-user-s-detail;verify-updating-users-detail-by-id-77866-(put-request)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "Users API",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "calling the users api by id \"1234\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "get response with status code \"202\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T13:41:47.655Z",
+        "line": 23,
+        "name": "Verify deleting a single user by Id (delete request)",
+        "description": "",
+        "id": "validate-the-users-api-to-get-the-user-s-detail;verify-deleting-a-single-user-by-id-(delete-request)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "Delete API with  \"23454\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "calling the delete api with \"23454\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "get response with status code \"204\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the Users API to get the user\u0027s detail",
+    "description": "",
+    "id": "validate-the-users-api-to-get-the-user-s-detail",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/getUsersValidation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-03T13:41:47.660Z",
+        "line": 11,
+        "name": "Verify User is sucessfully logged in",
+        "description": "",
+        "id": "validate-the-login-api;verify-user-is-sucessfully-logged-in;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Login API with user1 and pass1",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 125000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "requests login",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 70000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "is sucessfully logged in with status code \"200\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "sessionToken is \"0d628281-4f88-4a02-8223-5185e2fd71fd\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T13:41:47.673Z",
+        "line": 12,
+        "name": "Verify User is sucessfully logged in",
+        "description": "",
+        "id": "validate-the-login-api;verify-user-is-sucessfully-logged-in;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Login API with user2 and pass2",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "requests login",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "is sucessfully logged in with status code \"200\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "sessionToken is \"0d628281-4f88-4a02-8223-5185e2fd71fd\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T13:41:47.681Z",
+        "line": 13,
+        "name": "Verify User is sucessfully logged in",
+        "description": "",
+        "id": "validate-the-login-api;verify-user-is-sucessfully-logged-in;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Login API with user3 and pass4",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "requests login",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 81000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "is sucessfully logged in with status code \"200\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "sessionToken is \"0d628281-4f88-4a02-8223-5185e2fd71fd\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T13:41:47.687Z",
+        "line": 14,
+        "name": "Verify User is sucessfully logged in",
+        "description": "",
+        "id": "validate-the-login-api;verify-user-is-sucessfully-logged-in;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Login API with user3 and pass4",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "requests login",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "is sucessfully logged in with status code \"200\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "sessionToken is \"0d628281-4f88-4a02-8223-5185e2fd71fd\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T13:41:47.691Z",
+        "line": 15,
+        "name": "Verify User is sucessfully logged in",
+        "description": "",
+        "id": "validate-the-login-api;verify-user-is-sucessfully-logged-in;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Login API with user5 and pass5",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "requests login",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "is sucessfully logged in with status code \"200\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "sessionToken is \"0d628281-4f88-4a02-8223-5185e2fd71fd\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T13:41:47.695Z",
+        "line": 16,
+        "name": "Verify User is sucessfully logged in",
+        "description": "",
+        "id": "validate-the-login-api;verify-user-is-sucessfully-logged-in;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "Login API with user6 and pass6",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "requests login",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "is sucessfully logged in with status code \"200\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "sessionToken is \"0d628281-4f88-4a02-8223-5185e2fd71fd\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T13:41:47.701Z",
+        "line": 21,
+        "name": "Verify User gets an error if password is incorrect",
+        "description": "",
+        "id": "validate-the-login-api;verify-user-gets-an-error-if-password-is-incorrect",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "LoginAPI with \"dataUser\" and \"wrong\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 50000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "requests login",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "gets an error with status code \"400\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "\"Error\" is \"0001\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "\"Details\" is \"Invalid Password\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginTestCases"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T13:41:47.705Z",
+        "line": 28,
+        "name": "Verify User gets 500 status code if parameters are missing",
+        "description": "",
+        "id": "validate-the-login-api;verify-user-gets-500-status-code-if-parameters-are-missing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "LoginAPI with \"empty\" and \"password\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "requests login",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46000,
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "gets an error with status code \"500\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45000,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "\"Error\" is \"0002\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "\"Details\" is \"missing mandatory parameters\"",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginTestCases"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the login API",
+    "description": "",
+    "id": "validate-the-login-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/loginValidations.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-03T13:41:47.709Z",
+        "line": 3,
+        "name": "Verify User is able to log in",
+        "description": "",
+        "id": "validate-the-login-api;verify-user-is-able-to-log-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "LoginAPI have \"username\" and \"password\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 105000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "requesting login",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "is logged in with status code \"200\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginTestCases"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the login API",
+    "description": "",
+    "id": "validate-the-login-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/sample.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.204 s <<< FAILURE! - in cucumber.Options.TestRunner
+initializationError(cucumber.Options.TestRunner)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalArgumentException: 
+Couldn't create a file output stream for target/cucumber-html-reports/cucumber.json.
+Make sure the the file isn't a directory.
+The details are in the stack trace below:
+Caused by: java.io.FileNotFoundException: target/cucumber-html-reports/cucumber.json (Not a directory)
+
